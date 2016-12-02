@@ -1,6 +1,6 @@
 # Test Extensions For VS2017
 
-Both extension projects in this repository were created from the default VSIX project template in Visual Studio 2015. VSSDK RC2 build tools nuget package was then added to the projects, and both are configured in a similar fashion to GHfVS:
+Both extension projects in this repository were created from the default VSIX project template in Visual Studio 2015, and built with Visual Studio 2015. VSSDK RC2 build tools nuget package was then added to the projects, and both are configured in a similar fashion to GHfVS:
 
 - using the latest VSSDK build tools (RC2)
 - IsProductComponent csproj flag
