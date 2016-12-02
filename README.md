@@ -11,12 +11,16 @@ Both extension projects in this repository were created from the default VSIX pr
 
 This project initially failed to deploy to the experimental instance with:
 
+## Error 1
+
 ```
 1>C:\Users\shana\Documents\GitHub\VisualStudio\packages\Microsoft.VSSDK.BuildTools.15.0.25929-RC2\tools\VSSDK\Microsoft.VsSDK.targets(612,5): error VSSDK1077: Unable to locate the extensions directory. "Value cannot be null.
 1>C:\Users\shana\Documents\GitHub\VisualStudio\packages\Microsoft.VSSDK.BuildTools.15.0.25929-RC2\tools\VSSDK\Microsoft.VsSDK.targets(612,5): error VSSDK1077: Parameter name: path1".
 ```
 
 After clearing the nuget cache, it now fails with:
+
+## Error 2
 
 ```
 1>------ Rebuild All started: Project: ExtensionFor2015And2017, Configuration: Debug Any CPU ------
